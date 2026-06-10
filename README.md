@@ -18,8 +18,9 @@ Open `site/index.html` in any browser — no build step, no dependencies.
 | File | Purpose |
 |---|---|
 | `tools/fix_dialogue_tags.py` | Auto-repairs the mechanical issues in the `.docx` manuscripts while preserving formatting: dialogue-tag punctuation (`"Text." She said.` → `"Text," she said.` — 1,225 fixes across both books), plus optional `--hoard` (horde misspelling, Book 2 only), `--ellipsis` (`..` → `…`), and `--quotes` (straight apostrophes → curly). Ambiguous near-misses ("She said it flatly…") are never changed — they go to a review file. |
-| `tools/generate_tofix.py` | Regenerates `TO-FIX.md` from the manuscripts, verifying every issue location at generation time. |
+| `tools/generate_tofix.py` | Regenerates `TO-FIX.md` and `STYLE-PASS.md` from the manuscripts, verifying every issue location at generation time. |
 | `TO-FIX.md` | The manual worklist: 69 located issues (chapter + paragraph + verbatim quote you can Ctrl+F in Word), exhaustive sweeps (timeline references, merged speech, double spaces), and 10 author decisions with no single line to point at. |
+| `STYLE-PASS.md` | The de-repetition worklist: 440 located occurrences of the 10 prose-tic constructions ("Not X. Not Y." cascades, the "of a man who…" formula, "the kind of", duplicated similes, etc.), grouped by chapter, with per-tic guidance on what to keep. |
 | `fixed/` | Output of a full run: `[fixed].docx` manuscripts, per-change CSV logs, and the manual-review files. |
 
 ```bash

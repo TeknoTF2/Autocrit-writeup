@@ -19,6 +19,11 @@ tags with unusual continuations, e.g. “She said more quietly”).
 Severity: **HIGH** = readers/agents will notice; **MED** = continuity or
 logic that careful readers catch; **MINOR** = copyedit-level.
 
+**Prose tics are in the companion file `STYLE-PASS.md`** — the repeated
+constructions (“Not X. Not Y.”, “the kind of”, the “of a man who…” formula,
+single-word cascades, duplicated similes) with every occurrence located.
+This file stays focused on errors; that one is the curation pass.
+
 
 ---
 
