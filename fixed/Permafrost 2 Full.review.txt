@@ -1,0 +1,42 @@
+Near-miss tag patterns left UNCHANGED — review by hand.
+Location = chapter + paragraph number counted from the chapter heading.
+
+[Chapter Three · ¶38] (possible tag — verify)
+    .’ The thought was immediate, flooding, carrying with it a 
+
+[Chapter Six · ¶104] (possible tag — verify)
+    ?” She asked Jane, who walked beside her with the long st
+
+[Chapter Seven · ¶55] (possible tag — verify)
+    !” He said it the way you’d say you were joining friend
+
+[Chapter Ten · ¶50] (possible tag — verify)
+    .” He’d said then. The same voice. The same warmth.
+
+[Chapter Nineteen · ¶41] (possible tag — verify)
+    .’ The thought formed before she could stop it. ‘We left ou
+
+[Chapter Twenty-Two · ¶39] (possible tag — verify)
+    ?” He asked Uthesia.
+
+[Chapter Twenty-Two · ¶78] (possible tag — verify)
+    !” He called upward.
+
+[Chapter Twenty-Three · ¶26] (possible tag — verify)
+    .” Someone said it. Gormund thought it might have been him.
+
+[Chapter Twenty-Seven · ¶24] (possible tag — verify)
+    ?” She asked the air beside her.
+
+[Chapter Thirty-One · ¶15] (possible tag — verify)
+    .” She pressed her palms together, the gesture automatic, t
+
+[Chapter Thirty-One · ¶41] (possible tag — verify)
+    .” Muse said it gently. “I’ll help you with the Book. Eve
+
+[Chapter Thirty-Two · ¶21] (possible tag — verify)
+    .” Yoo said it with the casual certainty of a fact so es
+
+[Chapter Thirty-Eight · ¶50] (possible tag — verify)
+    .’ She pressed her back against the library’s door, breathi
+

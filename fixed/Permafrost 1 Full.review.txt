@@ -1,0 +1,60 @@
+Near-miss tag patterns left UNCHANGED — review by hand.
+Location = chapter + paragraph number counted from the chapter heading.
+
+[Chapter Two · ¶26] (possible tag — verify)
+    ?’ The thought struck her unexpectedly and she looked forwa
+
+[Chapter Four · ¶42] (possible tag — verify)
+    .” She said it like she’d said it four hundred times alr
+
+[Chapter Five · ¶141] (possible tag — verify)
+    .’ The thought came with the familiar twist in her stomach,
+
+[Chapter Five · ¶143] (possible tag — verify)
+    ?” She asked the table. “I think we’ve earned it.”
+
+[Chapter Six · ¶74] (possible tag — verify)
+    .” Carina said it without bravado, without the usual puffed
+
+[Chapter Six · ¶92] (possible tag — verify)
+    .’ Nobody asked what happened. The fire and the dark and the
+
+[Chapter Seven · ¶4] (possible tag — verify)
+    .” She snapped a salute that was somehow both precise and m
+
+[Chapter Seven · ¶101] (possible tag — verify)
+    .” She said more quietly, still holding his arm. The oth
+
+[Chapter Eight · ¶96] (possible tag — verify)
+    .” She said it without bitterness, which was worse. Bitt
+
+[Chapter Ten · ¶37] (possible tag — verify)
+    .” She said it with the easy confidence of someone makin
+
+[Chapter Eleven · ¶32] (possible tag — verify)
+    .” He said it without anger, without cruelty, with the 
+
+[Chapter Twelve · ¶33] (possible tag — verify)
+    .” She said it simply, without heat. “In Murim, if someo
+
+[Chapter Twelve · ¶74] (possible tag — verify)
+    .” He said each word with the precision of a man reciti
+
+[Chapter Thirteen · ¶38] (possible tag — verify)
+    .’ The thought arrived without drama. ‘I’m hitting as hard 
+
+[Chapter Eighteen · ¶21] (possible tag — verify)
+    .’ The thought was quiet, precise, a blade turned inward. ‘
+
+[Chapter Nineteen · ¶2] (possible tag — verify)
+    .” Gale had said this morning, setting a cup of coffee on the
+
+[Chapter Twenty · ¶23] (possible tag — verify)
+    .” She pressed a strip of dried meat into his hand regardle
+
+[Chapter Twenty-One · ¶70] (possible tag — verify)
+    .’ The thought was quiet. Small. The voice of a person unde
+
+[Chapter Twenty-Two · ¶26] (possible tag — verify)
+    .” Cain said it quietly, the charcoal still in his hand. 
+
