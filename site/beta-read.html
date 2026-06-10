@@ -30,6 +30,7 @@
 <div class="toc">
   <strong>Contents</strong>
   <ul>
+    <li><a href="#revision">Revision status</a></li>
     <li><a href="#experience">The reader experience</a></li>
     <li><a href="#working">What's working</a></li>
     <li><a href="#issues">The big issues, prioritized</a></li>
@@ -41,12 +42,34 @@
 </div>
 <div class="spoiler-note">⚠ Full spoilers for both books.</div>
 
+<section class="block" id="revision">
+  <h2 class="section">Revision status</h2>
+  <p class="lede">This report was written against the submitted drafts. Since then, three mechanical/style passes have been applied to the revised manuscripts (<code>fixed/</code>), with every change logged to CSV. Sections below are annotated: <span class="pill good">✓ fixed</span> means resolved in revision; <span class="pill warn">open</span> means still outstanding.</p>
+  <div class="panel good">
+    <h4>What's been fixed</h4>
+    <ul>
+      <li><strong>Dialogue-tag punctuation:</strong> 1,225 corrections (<code>"Text." She said.</code> → <code>"Text," she said.</code>). Remaining: 19 deliberately-skipped ambiguous near-misses in the review files.</li>
+      <li><strong>hoard → horde:</strong> all 15 Book 2 instances (Book 1's scripture "Do not hoard the flame" correctly untouched).</li>
+      <li><strong>Typography:</strong> 15 two-dot ellipses → "…"; 127 straight apostrophes → curly.</li>
+      <li><strong>The "of a man/woman/someone who…" formula:</strong> 240 → 67 (one keeper per chapter + literal non-tic uses; 172 bespoke rewrites).</li>
+      <li><strong>"Not X. Not Y." cascades:</strong> 28 → 7 (horror/reveal beats kept). <strong>"the particular":</strong> B2 13 → 2. <strong>"the kind of":</strong> −15. <strong>"the way" similes:</strong> −14, including three sets of near-duplicate similes (dog's-ears ×2, water-around-a-stone ×3, jeweler ×2). Five decorative single-word cascades smoothed; signature cascades untouched.</li>
+      <li><strong>Continuity:</strong> Crimson Port south → east; the blind-POV "silver hair" line re-rendered through sound; Bloodridge → Bloomridge (both); "Five voices" → "four voices"; Cain's plural "eyes" → "eye" (4 instances).</li>
+    </ul>
+    <h4>Still open</h4>
+    <ul>
+      <li>The three-days vs. two-days travel math and the "two months" timeline sweep (both await an authorial timeline decision).</li>
+      <li>The TO-FIX minor typo list, merged speaker paragraphs, and the dropped-thread decisions (the "…go…" syllable, the wards, the whiskey gap, etc.).</li>
+      <li>Structural suggestions (Issue #6) — untouched by design.</li>
+    </ul>
+  </div>
+</section>
+
 <section class="block" id="experience">
   <h2 class="section">The reader experience</h2>
   <p class="lede">Honest version, as one reader to one writer.</p>
   <p>I was in by the end of Chapter 1. The blind-woodchopping open is a genuinely strong hook — premise, voice, and a secret in three pages — and the first act's survival texture (frozen waterskins, the goat in the refugee line, the growth-notches in the doorframe) kept me reading even though, plot-wise, very little happens for six chapters. The Valdara arc grabbed me hard; the maid's death made me put the manuscript down for a minute, in the good way; and from the knock on the cabin door through the end of Book 1 I was turning pages as fast as I could read them.</p>
   <p>Book 2 is better than Book 1, and noticeably so — the braided structure, the Wendigo horror, the blind surgery, and the Dantalion chapters read like a different, more confident writer. Chapter 18 (Carina's death-dream) and Chapter 19 (the potions) are the emotional high-water mark of the series; Ostervik is as good a siege arc as I've read in indie fantasy. And then the last five chapters dismantled everything I cared about, on purpose, and the final line gave the series to a predator. I respect it. It also hurt enough that I'd want Book 3's opening chapters in hand before recommending the duology to a friend — that's a real retention consideration, covered in the Market report.</p>
-  <p>Two things consistently pulled me out of the story: the dialogue-tag punctuation (after the first hundred instances I started seeing nothing else) and the repetition fingerprints — "the kind of," "Not X. Not Y. Z.," "the particular A of a B who…" — which are individually effective constructions that the text leans on until they become visible machinery. Both are line-edit problems, not talent problems. Fix those and this reads professional.</p>
+  <p>Two things consistently pulled me out of the story: the dialogue-tag punctuation (after the first hundred instances I started seeing nothing else) and the repetition fingerprints — "the kind of," "Not X. Not Y. Z.," "the particular A of a B who…" — which are individually effective constructions that the text leans on until they become visible machinery. Both are line-edit problems, not talent problems. <em>Both have since been fixed in the revision passes — see Revision status above; this paragraph describes the draft as submitted.</em></p>
 </section>
 
 <section class="block" id="working">
@@ -82,47 +105,49 @@
 <section class="block" id="issues">
   <h2 class="section">The big issues, prioritized</h2>
 
-  <div class="panel bad">
-    <h3>1 · Dialogue-tag punctuation — systemic, ~1,000+ instances</h3>
+  <div class="panel good">
+    <h3>1 · Dialogue-tag punctuation — <span class="pill good">✓ fixed</span> (was: systemic, ~1,000+ instances)</h3>
     <p>Both books close quoted dialogue with a period before an attached speech tag, capitalized as a new sentence:</p>
     <blockquote>"It helps me think." She said.<br>"Deceased." Uthesia said.<br>"We climb." Cain said.</blockquote>
     <p>Standard is <code>"It helps me think," she said.</code> The manuscripts do it correctly fewer than ten times per book (e.g., <em>"Fragments," she said</em> in Chapter 1), which confirms it's error, not style. Computed counts: <strong>Book 1: 511 period-before-tag instances vs. 3 comma-correct; Book 2: 499 vs. 6.</strong> The same pattern extends to thought-tags ("'I could go out.' He thought."). This is the single highest-yield fix in the entire series — it's mechanical, global, and it is the first thing an agent, editor, or reviewer will see.</p>
+    <p><strong>Status: fixed.</strong> 1,225 corrections applied by <code>tools/fix_dialogue_tags.py</code> with formatting preserved; the revised manuscripts now read <em>"It helps me think," she said.</em> throughout. Only 19 deliberately-skipped ambiguous near-misses ("She said it without bitterness…" — sentences, not tags) remain in the review files for a human call.</p>
   </div>
 
-  <div class="panel bad">
-    <h3>2 · "Hoard" for "horde" — every instance in Book 2</h3>
-    <p>The undead army is consistently a "hoard" (10+ occurrences, including chapter-defining usage in the Ostervik arc). "Hoard" is treasure; "horde" is an army. Global find-and-replace with a manual check (Andromalius's actual gold hoard should stay a hoard).</p>
+  <div class="panel good">
+    <h3>2 · "Hoard" for "horde" — <span class="pill good">✓ fixed</span></h3>
+    <p>The undead army was consistently a "hoard" (15 occurrences, including chapter-defining usage in the Ostervik arc). "Hoard" is treasure; "horde" is an army. <strong>Status: fixed</strong> — all 15 Book 2 instances corrected; Book 1's "Do not hoard the flame" (the correct verb, in Naika's scripture) untouched.</p>
   </div>
 
-  <div class="panel warn">
-    <h3>3 · Repetition fingerprints</h3>
-    <p>Four constructions recur often enough to become visible machinery. Computed from the text:</p>
+  <div class="panel good">
+    <h3>3 · Repetition fingerprints — <span class="pill good">✓ largely addressed</span></h3>
+    <p>Four constructions recurred often enough to become visible machinery. Computed from the draft, with post-revision counts:</p>
     <ul>
-      <li><strong>"of a man who / of someone who / of a woman who"</strong> — the "[noun] of a [person] who [past perfect]" characterization formula: 38 four-gram repeats in Book 1, 47 + 22 + 18 in Book 2 ("the particular irritation of a craftsman…", "the voice of a man who had been making decisions…"). It's a great move — twice a chapter, not twice a page.</li>
-      <li><strong>"the kind of X that…"</strong> — multiple instances per chapter in Book 1's first half.</li>
-      <li><strong>"Not X. Not Y. Z."</strong> — the negation cascade ("Not flickered. Not faded. Died.") is powerful at the knock scene and numbing by the twentieth use.</li>
-      <li><strong>Fragment cascades</strong> — "Wake. Walk. Work. Walk. Drink. Sleep." / "Swing, crack, split, stack." Effective as a signature; currently used as a default.</li>
+      <li><strong>"of a man who / of someone who / of a woman who"</strong> — the characterization formula: <strong>240 → 67</strong> (one keeper per chapter — the strongest instance — plus literal non-tic uses; 172 bespoke rewrites).</li>
+      <li><strong>"Not X. Not Y. Z."</strong> — the negation cascade: <strong>28 → 7</strong>, keeping the horror and reveal beats ("Not treasure. Not coins. Scales.").</li>
+      <li><strong>"the particular X of a Y"</strong> — Book 2: <strong>13 → 2</strong> (kept the centuries-circling charge and "the particular finality of a barrel against a skull").</li>
+      <li><strong>"the kind of X that…"</strong> — <strong>56 → 41</strong>; <strong>"the way…" similes</strong> — <strong>65 → 51</strong>, including three sets of near-duplicate similes (dog's-ears ×2, water-around-a-stone ×3, jeweler ×2 — first instance kept in each).</li>
+      <li><strong>Fragment cascades</strong> — five decorative ones smoothed to commas; the signature cascades ("Wake. Walk. Work.", "Barbatos. Barbatos. Barbatos.", the surgery rhythm) and literal counting beats untouched.</li>
     </ul>
-    <p class="dim">Also flagged: duplicated similes ("like a stone dropped into still water" appears nearly verbatim twice in Book 1), "filed it away" as the shared cognitive verb of four different POVs, and "did the math" as a recurring beat.</p>
+    <p class="dim">Also fixed: both duplicated similes' second instances rewritten. Left alone by design: "filed it away," "did the math," "something that might have been" (small totals, low harm). Remaining instances of every construction are itemized in <code>STYLE-PASS.md</code>.</p>
   </div>
 
   <div class="panel warn">
-    <h3>4 · Timeline arithmetic</h3>
+    <h3>4 · Timeline arithmetic — <span class="pill warn">open</span></h3>
     <p>The books' counting motif invites readers to count — and the numbers drift. The dome falls ~3 weeks before Chapter 1; outside-world chapters fix it at six–seven weeks by Book 1's end; yet characters repeatedly say "two months" (Muse memorizing Gormund's rumble, Uthesia never raising her voice, Valdara's population "two months ago"). The Crimson Port walk is depicted as two days but called three, three times. Travel rations (3 weeks issued) don't cover the briefed one-way itinerary (~4.5 weeks). One canonical timeline document, then a conforming pass.</p>
   </div>
 
-  <div class="panel warn">
-    <h3>5 · Continuity drift on physical details</h3>
-    <p>Cain is canonically one-eyed, but Book 2 twice gives him "eyes" ("His eyes opened"; "His eyes were bloodshot"). The town west of Wolkenfeld is "Bloodridge" twice and "Bloomridge" three times <em>within the same Book 1 speech</em> (Book 2 settles on Bloomridge). One Book 1 line breaks the blind POV outright: Muse perceiving Carina's "silver hair" and a silent "twitch." Full list in the error log below.</p>
+  <div class="panel good">
+    <h3>5 · Continuity drift on physical details — <span class="pill good">✓ fixed</span></h3>
+    <p>Cain's plural "eyes" (4 instances) → "eye"; Bloodridge → Bloomridge (both occurrences); the blind-POV "silver hair"/"twitch" line re-rendered through sound ("the occasional rustle when she twitched"); Crimson Port "south" → "east"; "Five voices" → "four voices." Everos's two-eyed resurrection correctly left intact. Remaining continuity items (timeline math, route-briefing gap, dropped threads) are in the error log below and TO-FIX.md.</p>
   </div>
 
   <div class="panel warn">
-    <h3>6 · Stacked climaxes and the bleak landing</h3>
+    <h3>6 · Stacked climaxes and the bleak landing — <span class="pill warn">open · structural</span></h3>
     <p>Book 2 runs four consecutive climaxes in its last three chapters — Uthesia/Stonewalker, Cain/Barbatos, Carina/Yoo, Carina/Billy — with no decompression. The Barbatos duel and the Yoo duel share imagery (poison, falls, mutual destruction) closely enough to dilute each other. And the final image hands the series to its predator with only Gormund's northbound march as a planted ember. Structural suggestion, not a demand: half a chapter of air between Chapters 38 and 39, and consider letting the book end on Gormund's "That isn't all I am" beat <em>after</em> the Billy scene rather than before it — same events, same darkness, but the door closes on the ember instead of the poison.</p>
   </div>
 
   <div class="panel frost">
-    <h3>7 · Dropped or dangling threads (verify intent)</h3>
+    <h3>7 · Dropped or dangling threads (verify intent) — <span class="pill warn">open · author decisions</span></h3>
     <ul>
       <li>The "…go…" syllable from B1 Ch. 1 — never revisited. If it was Naika's last word, one line in the Xeroc scene would close it; if it was Xeroc, that's a reveal worth keeping deliberately.</li>
       <li>Gormund promises to tell Cain about the stalking sound ("He'd tell Cain tomorrow") — the report never happens on-page.</li>
@@ -137,7 +162,21 @@
 
 <section class="block" id="metrics">
   <h2 class="section">AutoCrit-style metrics</h2>
-  <p class="lede">Computed directly from the manuscript text. Reference ranges are typical for published adult commercial fiction.</p>
+  <p class="lede">Computed directly from the manuscript text. Reference ranges are typical for published adult commercial fiction. Tables show the <strong>draft</strong> numbers this report was written against; the table below summarizes what changed in revision.</p>
+
+  <h3>Draft → revised (mechanical delta)</h3>
+  <table>
+    <tr><th>Metric</th><th class="num">Draft</th><th class="num">Revised</th><th>Note</th></tr>
+    <tr><td>Period-before-tag errors</td><td class="num">1,010</td><td class="num">19</td><td>Remaining are ambiguous near-misses parked in review files.</td></tr>
+    <tr><td>"hoard" as horde (B2)</td><td class="num">15</td><td class="num">0</td><td>Scripture verb in B1 preserved.</td></tr>
+    <tr><td>"of a X who…" formula</td><td class="num">240</td><td class="num">67</td><td>One keeper per chapter + literal uses.</td></tr>
+    <tr><td>"Not X. Not Y." cascades</td><td class="num">28</td><td class="num">7</td><td>Horror/reveal beats kept.</td></tr>
+    <tr><td>"the particular" (B2)</td><td class="num">13</td><td class="num">2</td><td>B1's single use untouched.</td></tr>
+    <tr><td>"the kind of"</td><td class="num">56</td><td class="num">41</td><td>Mechanical instances cut.</td></tr>
+    <tr><td>"the way…" similes</td><td class="num">65</td><td class="num">51</td><td>Near-duplicate similes resolved.</td></tr>
+    <tr><td>Two-dot ellipses / straight apostrophes</td><td class="num">15 / 127</td><td class="num">0 / 0</td><td>Normalized.</td></tr>
+    <tr><td>Bloodridge spellings</td><td class="num">2</td><td class="num">0</td><td>Now Bloomridge everywhere.</td></tr>
+  </table>
 
   <h3>Core numbers</h3>
   <table>
@@ -188,7 +227,7 @@
   </table>
   <p class="dim">"Hand/hands" is partly thematic (see the Analysis page — the hands motif is deliberate and pays off), and "voice" is the cost of a blind POV. "Something/someone" is the real vagueness tax: the books often reach for "something that might have been X" where the specific noun would hit harder.</p>
 
-  <h3>Repeated phrases (4-gram fingerprints)</h3>
+  <h3>Repeated phrases (4-gram fingerprints) <span class="pill good">draft numbers — see delta above</span></h3>
   <table>
     <tr><th>Phrase</th><th class="num">B1</th><th class="num">B2</th></tr>
     <tr><td>"of a man who [had]"</td><td class="num">38</td><td class="num">47</td></tr>
@@ -230,16 +269,16 @@
 
 <section class="block" id="errors">
   <h2 class="section">Continuity &amp; error log</h2>
-  <p class="lede">Every item verified against the manuscript text. Line numbers refer to the extracted plain-text files (one paragraph per line).</p>
+  <p class="lede">Every item verified against the manuscript text. Line numbers refer to the extracted plain-text files (one paragraph per line). Items resolved in the revision passes carry a <span class="pill good">✓ fixed</span> pill; everything else remains open in the revised manuscripts (see <code>TO-FIX.md</code> for chapter-located fixes).</p>
 
   <h3>Book 1</h3>
   <table>
     <tr><th>Severity</th><th>Item</th></tr>
-    <tr><td><span class="pill bad">High</span></td><td><strong>Bloodridge vs. Bloomridge</strong> — both spellings inside the same Harbormaster speech (lines 377, 382, 384). Book 2 settles on Bloomridge; conform Book 1.</td></tr>
-    <tr><td><span class="pill bad">High</span></td><td><strong>Direction error</strong> — Muse computes Crimson Port "five days south" (l.57); everyone else, including the journey itself, says east (l.64, l.344).</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>Bloodridge vs. Bloomridge</strong> — both spellings inside the same Harbormaster speech (lines 377, 382, 384). Book 2 settles on Bloomridge; conform Book 1.</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>Direction error</strong> — Muse computes Crimson Port "five days south" (l.57); everyone else, including the journey itself, says east (l.64, l.344).</td></tr>
     <tr><td><span class="pill bad">High</span></td><td><strong>Travel-day math</strong> — the walk is depicted as two days, called "three days" three times (l.351, l.371, l.708).</td></tr>
-    <tr><td><span class="pill bad">High</span></td><td><strong>Blind-POV violation</strong> — Muse perceives "silver hair" and a silent "twitch" (l.426). The only hard POV break in her chapters.</td></tr>
-    <tr><td><span class="pill warn">Med</span></td><td><strong>"Five voices said at once"</strong> (l.209) — only four other party members exist.</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>Blind-POV violation</strong> — Muse perceives "silver hair" and a silent "twitch" (l.426). The only hard POV break in her chapters.</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>"Five voices said at once"</strong> (l.209) — only four other party members exist. Now "four voices."</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>"Two months" timeline drift</strong> — multiple references (ll. ~1220, Ch. 17, Ch. 28) against an established 6–7 weeks.</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>Seal-duration wobble</strong> — "thousands of years" (l.990) vs. "a thousand years"/"a millennium" everywhere else; Cain's "twenty years of war" (l.1317) sits oddly against his stated longer career.</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>Plan vs. parley</strong> — Ch. 9–10 frame the infiltration as a killing; Ch. 11 opens with a full cooperation offer and nobody reacts to the change.</td></tr>
@@ -252,8 +291,8 @@
   <h3>Book 2</h3>
   <table>
     <tr><th>Severity</th><th>Item</th></tr>
-    <tr><td><span class="pill bad">High</span></td><td><strong>"Hoard" for "horde"</strong> — consistent throughout the undead arcs (ll. 2313, 2537, 2553, 2633, 2640, 2676, 2709, 3298…).</td></tr>
-    <tr><td><span class="pill bad">High</span></td><td><strong>Cain's eye count</strong> — canonically one-eyed ("the only one he had left," l.385) but "His eyes opened" (l.1303) and "His eyes were bloodshot" (ll.347, 358).</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>"Hoard" for "horde"</strong> — consistent throughout the undead arcs (ll. 2313, 2537, 2553, 2633, 2640, 2676, 2709, 3298…).</td></tr>
+    <tr><td><span class="pill good">✓ fixed</span></td><td><strong>Cain's eye count</strong> — canonically one-eyed ("the only one he had left," l.385) but "His eyes opened" (l.1303) and "His eyes were bloodshot" (ll.347, 358).</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>Suppression math</strong> — "higher-tier spells retain upward of fifty percent efficiency" vs. the (top-tier) resurrection scroll running "roughly thirty percent" (l.1187).</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>Elizabeth's genealogy slip</strong> — she tells her father "Our grandmother was fifty-third. Our great-grandfather was forty-first" (l.1622); his grandmother is her great-grandmother.</td></tr>
     <tr><td><span class="pill warn">Med</span></td><td><strong>Resurrection-scroll rules</strong> — Ghislaine cites a ~10-minute revival window (l.1960), but Carina is revived well outside it after a cross-city carry.</td></tr>
@@ -272,26 +311,26 @@
 <section class="block" id="roadmap">
   <h2 class="section">Revision roadmap</h2>
   <div class="panel frost">
-    <h4>Pass 1 — Mechanical (highest yield, lowest risk)</h4>
+    <h4>Pass 1 — Mechanical (highest yield, lowest risk) <span class="pill good">✓ done</span></h4>
     <ol>
-      <li>Global dialogue-tag repunctuation (period→comma, capital→lowercase before tags). ~1,000 instances.</li>
-      <li>Global "hoard"→"horde" (manual check for true hoards).</li>
-      <li>Two-dot ellipses → proper ellipses; straight/curly quote normalization; scene-break standardization.</li>
-      <li>The typo list above (both books).</li>
+      <li>Global dialogue-tag repunctuation (period→comma, capital→lowercase before tags). ~1,000 instances. <em>Done — 1,225 fixes.</em></li>
+      <li>Global "hoard"→"horde" (manual check for true hoards). <em>Done.</em></li>
+      <li>Two-dot ellipses → proper ellipses; straight/curly quote normalization. <em>Done.</em> Scene-break standardization remains.</li>
+      <li>The typo list above (both books). <em>Open — see TO-FIX.md for chapter-located items.</em></li>
     </ol>
-    <h4>Pass 2 — Continuity</h4>
+    <h4>Pass 2 — Continuity <span class="pill warn">partially done</span></h4>
     <ol>
       <li>Write the canonical timeline (dome-fall → wake → Velldale → Crimson Port → Valdara → bridge → Solarspire → Ostervik → finale) and conform every "X days/weeks/months" reference.</li>
-      <li>Bloomridge spelling; Cain's eye; the blind-POV hair line; "five voices"; south→east; the route-briefing/Valdara gap.</li>
+      <li>Bloomridge spelling; Cain's eye; the blind-POV hair line; "five voices"; south→east. <em>All done.</em> The route-briefing/Valdara gap remains.</li>
       <li>Decide each dangling thread: the "…go…" syllable, the wards, the second bell, the stalker report, the whiskey gap, the Gragorgan documents, the phantom round.</li>
     </ol>
-    <h4>Pass 3 — Style</h4>
+    <h4>Pass 3 — Style <span class="pill good">✓ largely done</span></h4>
     <ol>
-      <li>De-duplicate the four fingerprint constructions to roughly a third of current frequency; keep the best instances.</li>
+      <li>De-duplicate the four fingerprint constructions to roughly a third of current frequency; keep the best instances. <em>Done — formula 240→67, cascades 28→7, "particular" 13→2, "kind of"/"the way" thinned, duplicate similes resolved.</em></li>
       <li>Trim hedging adverbs ("actually," "exactly") and filter words in sighted POVs.</li>
       <li>Hunt "something/someone that might have been" for places where the specific noun is stronger.</li>
     </ol>
-    <h4>Pass 4 — Structural (optional, opinionated)</h4>
+    <h4>Pass 4 — Structural (optional, opinionated) <span class="pill warn">open</span></h4>
     <ol>
       <li>Compress B1 Ch. 5 and the Ch. 24–26 cabin block; split B1 Ch. 30's three payloads.</li>
       <li>Add decompression between B2 Ch. 38 and 39; consider reordering the finale so the book closes on Gormund's ember rather than Billy's kiss.</li>
