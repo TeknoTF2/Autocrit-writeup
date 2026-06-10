@@ -179,6 +179,13 @@ details summary .ch-title { color: var(--ink); }
 details summary .ch-pov { margin-left: auto; font-size: .78rem; color: var(--ink-faint); font-weight: 600; white-space: nowrap; }
 details .body { padding: 2px 20px 16px; color: var(--ink-dim); font-size: .95rem; }
 details .body > :last-child { margin-bottom: 0; }
+details .body p { margin: 0 0 10px; }
+details .body p.recap { color: var(--ink-faint); font-style: italic; }
+details .body p.fn strong { color: var(--frost); }
+details .body p.works::before { content: "✓ "; color: var(--good); font-weight: 800; }
+details .body p.works { color: #cdeeda; }
+details .body p.falt::before { content: "✗ "; color: var(--bad); font-weight: 800; }
+details .body p.falt { color: #f0cfcf; }
 
 /* ---------- Pills / badges ---------- */
 .pill {
